@@ -9,14 +9,32 @@
 </head>
 
 <body>
+    <div class="addpage-container">
+        <header class="header">
+            <nav class="navbar">
+                <div class="nav-links">
+                <a href= "index.html" target="_self">Home</a>
+            </div>
+                <a class="logo" href="login.html"><img src="img/pfp.jpg" width="50" height="50" alt="Profile picture"></a>
+            </nav>
+        </header>
+    
+        <div class="post-container">
+            <form action="index.html">
+                <div class="form-row">
+                    <label for="postBody">Post Body</label>
+                    <textarea id="postBody" name="postBody" placeholder="textarea"></textarea>
+                </div>
 
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-links">
-            <a href= "index.html" target="_self">Home</a>
+                <div class="form-row">
+                    <label for="fileUpload">Select file</label>
+                    <input type="file" id="fileUpload" name="fileUpload">
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="post-button">Create post</button>
+                </div>
+            </form>
         </div>
-            <a class="logo" href="login.html"><img src="img/pfp.jpg" width="50" height="50" alt="Profile picture"></a>
-        </nav>
-    </header>
+    </div>
 </body>
 </html>
