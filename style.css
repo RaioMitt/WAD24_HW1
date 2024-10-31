@@ -6,6 +6,7 @@ body {
     line-height: 1.6;
     margin: 0;
 }
+
 /* Navigation Bar */
 .navbar {
     display: flex;
@@ -42,7 +43,9 @@ body {
 /* Login page */
 
 .login-container {
-    max-width: 400px;
+    display: flexbox;
+    max-width: 600px;
+    max-height: 600px;
     margin: 50px auto;
     padding: 10px;
     border-radius: 25px;
@@ -55,7 +58,7 @@ body {
     margin-bottom: 20px;
 }
 .login-container h3 {
-    font-size:large ;
+    font-size: large;
     color: #549fef;
     margin: 10px 0;
 }
