@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!--<div id ="content"></div>-->
     <header class="header">
         <nav class="navbar">
             <div class="nav-links">
@@ -65,5 +66,17 @@
             </div>
         </section>
     </div>
+    <!--<script>
+        fetch("https://api.jsonbin.io/v3/b/67239bd3e41b4d34e44bf0eb", {
+            headers: {
+                "X-Master-Key": "$2a$10$/7q2l4wYfaGkaiyPKzo8I.GHMOyqIgXL9LkcnWV8Jd/Ewp8F8/.QS"
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("content").innerHTML = JSON.stringify(data, null, 2);
+        })
+        .catch(error => console.error("JSON not found!", error));
+    </script>-->
 </body>
 </html>
