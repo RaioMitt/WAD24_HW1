@@ -243,3 +243,36 @@ form > label {
     border-radius: 5px;
     width: 40px;
 }
+/*Dropdown menu*/
+.profile-container {
+    position: relative;
+}
+
+.dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: left;
+}
+
+.dropdown p, .dropdown a {
+    margin: 0;
+    padding: 8px 0;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.dropdown a {
+    color: #0066cc;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
+}
