@@ -1,4 +1,4 @@
-function myFunction() {
+function toggleDropdown() {
     console.log("Dropdown toggle triggered");
     var element = document.getElementById("dropdownMenu");
     if (element.style.display === "block") {
@@ -64,7 +64,7 @@ window.onload = function() {
 
                     let buttonDiv = document.createElement("div")
                     buttonDiv.className = "like-button"
-                    buttonDiv.innerText = "👍"
+                    buttonDiv.innerText = "💀"
                     postDiv.appendChild(buttonDiv)
                     feed.appendChild(postDiv)
 
@@ -136,7 +136,7 @@ window.onload = function() {
 
                     let buttonDiv = document.createElement("div")
                     buttonDiv.className = "like-button"
-                    buttonDiv.innerText = "👍"
+                    buttonDiv.innerText = "💀"
                     postDiv.appendChild(buttonDiv)
                     feed.appendChild(postDiv)
 
